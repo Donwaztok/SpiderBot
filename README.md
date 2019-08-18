@@ -29,4 +29,4 @@ Um robo de 8 "patas" inspirado nas aranhas que utilizará de Inteligencia Artifi
 
 # Projeto 3D
 
-![SpiderBot](3DModel/SpiderBot.jpg)
+![SpiderBot](https://github.com/Donwaztok/SpiderBot/blob/master/3DModel/SpiderBot.JPG)
