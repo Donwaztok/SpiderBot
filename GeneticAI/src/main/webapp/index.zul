@@ -1,8 +1,12 @@
 <zk>
+	<style src="/resources/style.css"/>
 	<window apply="org.zkoss.bind.BindComposer"
 		viewModel="@id('vm')@init('com.donwaztok.GeneticAI.MyViewModel')"
-		validationMessages="@id('vmsgs')">
+		validationMessages="@id('vmsgs')" sclass="window">
 		<hlayout>count: <label value="@load(vm.count)" /></hlayout>
 		<button label="add" onClick="@command('cmd')"/>
+		asdasd
 	</window>
+	dsfsd
+	<div> teste div</div>
 </zk>
