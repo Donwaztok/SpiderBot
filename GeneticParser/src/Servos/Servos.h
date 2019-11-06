@@ -1,7 +1,7 @@
 #ifndef Servos_h
 #define Servos_h
 
-#include "..\ServoDriver\Adafruit_PWMServoDriver.h"
+#include <Adafruit_PWMServoDriver.h>
 #include <Wire.h>
 
 #define SERVOMIN  262 // this is the 'minimum' pulse length count (out of 4096)

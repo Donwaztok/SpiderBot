@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
-#include "Narcoleptic\Narcoleptic.h"
-#include "Servos\Servos.h"
+#include <Narcoleptic.h>
+#include "Servos/Servos.h"
 
 Servos servos = Servos(1);
 
@@ -18,14 +18,14 @@ void loop(){
 
 	int newPos = 90;
 
-	servoPos[0] = newPos;
-	uint16_t pulselen = map(servoPos[0], 0, 90, SERVOMIN, SERVOMAX);
+	//servoPos[0] = newPos;
+	uint16_t pulselen = map(newPos, 0, 90, SERVOMIN, SERVOMAX);
 	//pwm.setPWM(0, 0, pulselen);
 	Narcoleptic.delay(500);
 
 	newPos = 0;
-	servoPos[0] = newPos;
-	pulselen = map(servoPos[0], 0, 90, SERVOMIN, SERVOMAX);
+	//servoPos[0] = newPos;
+	pulselen = map(newPos, 0, 90, SERVOMIN, SERVOMAX);
 	//pwm.setPWM(0, 0, pulselen);
 	
 	Narcoleptic.delay(2000);
