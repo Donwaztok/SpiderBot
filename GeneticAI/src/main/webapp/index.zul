@@ -1,12 +1,18 @@
 <zk>
-	<style src="/resources/style.css"/>
+	<style src="/resources/style.css" />
 	<window apply="org.zkoss.bind.BindComposer"
 		viewModel="@id('vm')@init('com.donwaztok.GeneticAI.MyViewModel')"
 		validationMessages="@id('vmsgs')" sclass="window">
-		<hlayout>count: <label value="@load(vm.count)" /></hlayout>
-		<button label="add" onClick="@command('cmd')"/>
-		asdasd
+		<hlayout>
+			count:
+			<label value="@load(vm.count)" />
+		</hlayout>
+		<button label="add" onClick="@command('cmd')" />
+
 	</window>
-	dsfsd
-	<div> teste div</div>
+	<div hflex="1" vflex="1" sclass="footer">
+			ZK Essentials, you are using ZK ${desktop.webApp.version}
+			- Build ${desktop.webApp.build}
+			<a href="http://www.zkoss.org">http://www.zkoss.org</a>
+	</div>
 </zk>
